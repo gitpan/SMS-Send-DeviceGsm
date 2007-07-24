@@ -1,0 +1,9 @@
+use inc::Module::Install;
+name 'SMS-Send-DeviceGsm';
+author 'Chris Williams <chris@bingosnet.co.uk>';
+license 'perl';
+version_from 'lib/SMS/Send/DeviceGsm.pm';
+build_requires 'Test::More' => '0.47';
+requires 'SMS::Send' => 0.04;
+requires 'Device::Gsm' => 1.45;
+WriteAll();
