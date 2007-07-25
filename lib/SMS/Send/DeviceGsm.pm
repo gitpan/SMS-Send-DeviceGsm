@@ -5,7 +5,7 @@ use base qw(SMS::Send::Driver);
 use Device::Gsm;
 use vars qw($VERSION);
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 sub new {
   my $package = shift;

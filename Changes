@@ -1,5 +1,8 @@
 SMS::Send::DeviceGsm
 ====================
 
+0.02	Wed jul 25 11:02:06 BST 2007
+	- Fixed abstract_from in Makefile.PL
+
 0.01	Tue Jul 24 18:32:18 BST 2007
 	- Initial CPAN Release
