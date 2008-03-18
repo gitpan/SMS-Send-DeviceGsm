@@ -1,11 +1,12 @@
 package SMS::Send::DeviceGsm;
 
 use strict;
+use warnings;
 use base qw(SMS::Send::Driver);
 use Device::Gsm;
 use vars qw($VERSION);
 
-$VERSION = '1.00';
+$VERSION = '1.02';
 
 sub new {
   my $package = shift;
