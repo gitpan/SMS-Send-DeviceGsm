@@ -6,7 +6,7 @@ use base qw(SMS::Send::Driver);
 use Device::Gsm;
 use vars qw($VERSION);
 
-$VERSION = '1.02';
+$VERSION = '1.04';
 
 sub new {
   my $package = shift;
@@ -130,7 +130,7 @@ For other issues, contact the author.
 
 Chris Williams E<lt>chris@bingosnet.co.uk<gt>
 
-=head1 COPYRIGHT
+=head1 LICENSE 
 
 Copyright 2007 Chris Williams
 
@@ -144,5 +144,11 @@ warranty of merchantability.
 ANY use may result in charges on your phone bill, and you should use this
 software with care. The author takes no responsibility for any such
 charges accrued.
+
+=head1 SEE ALSO
+
+L<SMS::Send>
+
+L<Device::Gsm>
 
 =cut

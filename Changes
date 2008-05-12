@@ -1,6 +1,9 @@
 SMS::Send::DeviceGsm
 ====================
 
+1.04	Mon May 12 13:57:53 BST 2008
+	- Removed kwalitee test, added LICENSE information
+
 1.02	Tue Mar 18 13:37:08 GMT 2008
 	- Updates to prereqs.
 
